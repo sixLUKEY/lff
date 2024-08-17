@@ -1,0 +1,7 @@
+<ul class="flex justify-between gap-4 px-5 py-3">
+  @for (i of listItems; track i.index) {
+  <li class="bg-red-200">
+    <a routerLink="{{ i.path }}">{{ i.name }}</a>
+  </li>
+  }
+</ul>

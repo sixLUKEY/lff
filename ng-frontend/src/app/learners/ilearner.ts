@@ -1,0 +1,3 @@
+interface iLearner {
+  name: string;
+}

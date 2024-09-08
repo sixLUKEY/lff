@@ -1,0 +1,6 @@
+#body {
+  position: absolute;
+  z-index: -100;
+  background-image: url("../lib/background.jpg");
+  background-size: cover;
+}

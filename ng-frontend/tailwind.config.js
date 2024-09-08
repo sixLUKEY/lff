@@ -5,6 +5,11 @@ module.exports = {
     extend: {
       fontFamily: {
         lato: ["Lato", "sans-serif"],
+        fredoka: ["Fredoka", "sans-serif"],
+      },
+      colors: {
+        primary: "#FF992C",
+        alternate: "#62D343",
       },
     },
   },

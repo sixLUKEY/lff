@@ -14,8 +14,28 @@ export class ListItemsComponent {
 }
 
 const _listItems: iListItem[] = [
-  { index: 1, name: 'Home', path: '', color: 'orange' },
-  { index: 2, name: 'About', path: '/about', color: 'blue' },
-  { index: 3, name: 'Services', path: '/services', color: 'green' },
-  { index: 4, name: 'Contact', path: '/contact', color: 'red' },
+  {
+    index: 1,
+    name: 'Home',
+    path: '',
+    color: 'orange',
+  },
+  {
+    index: 2,
+    name: 'About',
+    path: '/about',
+    color: 'blue',
+  },
+  {
+    index: 3,
+    name: 'Services',
+    path: '/services',
+    color: 'green',
+  },
+  {
+    index: 4,
+    name: 'Contact',
+    path: '/contact',
+    color: 'red',
+  },
 ];
